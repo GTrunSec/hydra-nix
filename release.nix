@@ -1,7 +1,8 @@
 { ... }:
 let
-  pkgs = (import <nixpkgs> {});
-in { 
+  pkgs = (import <nixpkgs> { });
+in {
+  pkgs.allowUnfree = true;
   my-python-packages = (pkgs.python3.withPackages (ps: [ ps.jupyterlab
                                                        ])).override (args: { ignoreCollisions = true;});
 
