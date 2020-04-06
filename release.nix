@@ -100,7 +100,6 @@ in {
                        #lang-go
                        go
                        gotools
-                       go_bootstrap
                        go-langserver
                        gocode
                        go-outline
