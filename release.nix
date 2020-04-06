@@ -1,6 +1,6 @@
 { ... }:
 let
-  pkgs = (import <nixpkgs> { config.allowUnfree = true;});
+  pkgs = (import <nixpkgs> { config.allowUnfree = true; config.ignoreCollisions = true;});
   
 in {
 
@@ -88,7 +88,6 @@ in {
                        cabal2nix # create nix expressions for haskell projects from cabal file
                        #lang-c++
                        llvmPackages.libclang
-                       clang
                        (ccls.overrideDerivation (oldAttrs: {
                          src = fetchFromGitHub{
                            owner = "MaskRay";
