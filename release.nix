@@ -39,7 +39,6 @@ in {
                        home-manager
                        gnumake
                        conda
-                       qt5.full
                        qtcreator
                        git
                        wget
