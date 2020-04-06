@@ -1,7 +1,7 @@
 { ... }:
 let
   pkgs = (import <nixpkgs> { config.allowUnfree = true;});
-
+  
 in {
 
   my-python-packages = (pkgs.python3.withPackages (ps: [ ps.jupyterlab
@@ -101,7 +101,7 @@ in {
                            sha256 = "18ik5rzzbwn43dd0ri518i5vzsa5ix81fpcv7gd1s6zdv3nf9bl0";
                          };
                        }))
-                       julia
+                       julia_13
                        #lang-go
                        go
                        gotools
