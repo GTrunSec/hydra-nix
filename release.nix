@@ -101,7 +101,7 @@ in {
                            sha256 = "18ik5rzzbwn43dd0ri518i5vzsa5ix81fpcv7gd1s6zdv3nf9bl0";
                          };
                        }))
-                       julia_13
+                       (julia_13.overrideAttrs(oldAttrs: {checkTarget = "";}))
                        #lang-go
                        go
                        gotools
