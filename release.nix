@@ -29,7 +29,6 @@ in {
                        )
                        emacs
                        ispell
-                       texlive.combined.scheme-basic
                        jupyter
                        lxappearance
                        appimage-run
