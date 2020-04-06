@@ -79,7 +79,6 @@ in {
                        virtmanager
                        nixops
                        nix-index
-                       rustup
                        rustc
                        chez
                        guile
@@ -119,7 +118,6 @@ in {
                        rxvt_unicode.terminfo
 
                        ncurses.dev # infocmp/tic/etc
-
                        #screenhot
                        spectacle
                        #flameshot
