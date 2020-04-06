@@ -27,7 +27,6 @@ in {
                        )
                        emacs
                        ispell
-                       dropbox
                        texlive.combined.scheme-basic
                        jupyter
                        lxappearance
