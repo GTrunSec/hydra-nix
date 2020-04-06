@@ -79,7 +79,6 @@ in {
                        virtmanager
                        nixops
                        nix-index
-                       cargo
                        rustup
                        rustc
                        chez
